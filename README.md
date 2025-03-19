@@ -1,9 +1,9 @@
-# seb45_main_009
+# Exercise Record
 <div align="center">
  <br>
  <img src ="" width="400px">
  <br>
-<b>Exercise Record</b><br>
+<b>solo project</b><br>
 </div>
 
  
