@@ -1,15 +1,14 @@
 # seb45_main_009
 <div align="center">
  <br>
- <img src ="https://github.com/codestates-seb/seb45_main_009/assets/130390467/71e2369b-0418-4122-ab27-9b33e38b6a7c" width="400px">
+ <img src ="" width="400px">
  <br>
-<b>FITFOLIO</b><br>
- 프로젝트 기간: 2023.08.24 ~ 2023.09.19
+<b>Exercise Record</b><br>
 </div>
 
  
 ## Team
-| 민은영(BE) |
+| 민은영 |
 | :----: |
 | <img src="https://github.com/codestates-seb/seb45_main_009/assets/130059353/8e686e76-57b8-41ae-a495-6238e8519478" width="100px" height="100px"> |
 | [`minkawoo`](https://github.com/minkawoo)      | 
