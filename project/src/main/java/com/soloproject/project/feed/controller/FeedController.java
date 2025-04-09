@@ -9,25 +9,25 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/feed")
 @RequiredArgsConstructor
 public class FeedController {
     private final FeedService feedService;
 
     // 피드 등록
-    @PostMapping("/feed/add")
+    @PostMapping("/add")
     public ResponseEntity<Feed> postFeed(@RequestBody Feed feed){
         return ResponseEntity.ok(feedService.createFeed(feed));
     }
 
     // 피드 수정
-    @PutMapping("/feed/{feedId}")
+    @PutMapping("/{feedId}")
     public ResponseEntity<Feed> putFeed(@PathVariable Long feedId, @RequestBody Feed feed){
         return ResponseEntity.ok(feedService.updateFeed(feedId, feed));
     }
 
     // 특정 피드 조회
-    @GetMapping("/feed/{feedId}")
+    @GetMapping("/{feedId}")
     public ResponseEntity<Feed> findFeedById(@PathVariable Long feedId){
         return ResponseEntity.ok(feedService.getFeed(feedId));
     }
@@ -39,7 +39,7 @@ public class FeedController {
     }
 
     // 피드 삭제
-    @DeleteMapping("/feed/{feedId}")
+    @DeleteMapping("/{feedId}")
     public ResponseEntity<Void> deleteFeed(@PathVariable Long feedId){
         feedService.deleteFeed(feedId);
         return ResponseEntity.noContent().build();
