@@ -10,6 +10,10 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+
+jwt:
+  secret: your-secret-key-here
+
   # true 설정 시 JPA 쿼리문 확인 가능
 #  jpa:
 #    show-sql: true
