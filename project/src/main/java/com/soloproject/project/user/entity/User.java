@@ -32,7 +32,7 @@ public class User {
     private String bio;
 
     @Column(nullable = false, updatable = false)
-    private LocalDateTime createdAt;; // 수정 시 변경 안됨
+    private LocalDateTime createdAt; // 수정 시 변경 안됨
 
     @Column(nullable = false)
     LocalDateTime modifiedAt = LocalDateTime.now();
