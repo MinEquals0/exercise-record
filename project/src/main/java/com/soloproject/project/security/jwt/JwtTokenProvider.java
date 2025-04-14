@@ -10,6 +10,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
+import java.util.List;
 
 @Component
 public class JwtTokenProvider {
@@ -19,19 +20,23 @@ public class JwtTokenProvider {
     private final long tokenValidityInMilliseconds = 1000 * 60 & 60; // 1시간
 
     // 토큰 생성
-    public String createToken(String email) {
-        Claims claims = Jwts.claims().setSubject(email);
+    public String createToken(String email, List<String> roles) {
+        // JWT claims (사용자 정보 등 포함)
+        Claims claims = Jwts.claims().setSubject(email);  // email을 subject로 설정
+        claims.put("roles", roles);  // 역할 정보 'roles'를 JWT에 넣기
 
         Date now = new Date();
-        Date validity = new Date(now.getTime() + tokenValidityInMilliseconds);
+        Date validity = new Date(now.getTime() + 3600000);  // 1시간 유효
 
+        // JWT 생성
         return Jwts.builder()
-                .setClaims(claims)
-                .setIssuedAt(now)
-                .setExpiration(validity)
-                .signWith(SignatureAlgorithm.HS256, secretKey)
-                .compact();
+                .setClaims(claims)  // claims 정보 추가
+                .setIssuedAt(now)  // 발급 시간
+                .setExpiration(validity)  // 만료 시간
+                .signWith(SignatureAlgorithm.HS256, secretKey)  // 서명 (비밀키로 서명)
+                .compact();  // JWT 문자열 반환
     }
+
 
 
     // 토큰에서 사용자 정보 가져오기
@@ -53,5 +58,4 @@ public class JwtTokenProvider {
             return false;
         }
     }
-
 }
