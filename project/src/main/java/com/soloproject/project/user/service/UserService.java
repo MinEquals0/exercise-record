@@ -4,6 +4,7 @@ import com.soloproject.project.user.entity.User;
 import com.soloproject.project.user.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,9 +13,11 @@ import java.util.List;
 @RequiredArgsConstructor
 public class UserService {
     private final UserRepository userRepository;
+    private final BCryptPasswordEncoder passwordEncoder;
 
     // 유저 생성
     public User createUser(User user){
+        user.setPassword(passwordEncoder.encode(user.getPassword())); // 암호화 추가
         return userRepository.save(user);
     }
 
