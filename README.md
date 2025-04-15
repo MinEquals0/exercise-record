@@ -8,8 +8,9 @@
 </div>
 
 
-## 🙋‍♀️ About the Developer
 
+
+## 🙋‍♀️ About the Developer
 <div align="center">
 	<br>
 		<img src="https://github.com/MinEquals0/exercise-record/blob/main/image/%ED%94%84%EB%A1%9C%ED%95%84.png?raw=true" width="200px"><br>
@@ -17,11 +18,14 @@
 	<a href="https://github.com/minequals0">@minequals0</a>
 	<br>
 
+
+
 ✨ I’m currently working on this project as part of my journey to becoming a backend developer.  
 🌱 I’ve been learning Spring Boot and JPA, and have taken on the full development process independently.  
 📖 This project represents my growth and the progress I’m making in backend development.
 
 </div>
+
 
 
 
