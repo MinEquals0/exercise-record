@@ -4,7 +4,7 @@
  <br>
  <img src ="https://github.com/MinEquals0/exercise-record/blob/main/image/%EB%B0%B0%EB%84%88.png?raw=true" width="400px">
  <br>
-<b>side project</b><br>
+<b>Personal Project</b><br>
 </div>
 <br>
 <br>
