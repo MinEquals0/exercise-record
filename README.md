@@ -10,7 +10,7 @@
 ## Team
 | 민은영 |
 | :----: |
-| <img src="https://github.com/MinEquals0/exercise-record/blob/main/image/%ED%94%84%EB%A1%9C%ED%95%84.png?raw=true" width="100px" height="100px"> |
+| <img src="https://github.com/MinEquals0/exercise-record/blob/main/image/%ED%94%84%EB%A1%9C%ED%95%84.png?raw=true" width="100px"> |
 | [`minequals0`](https://github.com/minequals0)      | 
 
 ## Stack - Back
