@@ -17,17 +17,14 @@
 		<b>Eun-young Min</b><br>
 	<a href="https://github.com/minequals0">@minequals0</a>
 	<br>
-
-
+	<br>
 
 ✨ I’m currently working on this project as part of my journey to becoming a backend developer.  
 🌱 I’ve been learning Spring Boot and JPA, and have taken on the full development process independently.  
 📖 This project represents my growth and the progress I’m making in backend development.
-
 </div>
-
-
-
+<br>
+<br>
 
 ## 📂 Stacks
 ![Java](https://img.shields.io/badge/JAVA-4285F4?style=for-the-badge&logo=java&logoColor=white)
@@ -44,7 +41,8 @@
 
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
+<br>
+<br>
 
 ## 📃 Docs
 <details>
@@ -62,7 +60,8 @@
 </details>
 
 #### [API 명세서](http://13.125.169.12:8080/swagger-ui/index.html#/)
-
+<br>
+<br>
 
 ## 📌 Commit convention
 | Message  | 설명                                            |
