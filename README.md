@@ -56,15 +56,19 @@
 #### 📃 [API Documentation](http://13.125.169.12:8080/swagger-ui/index.html#/)
 <br>
 <br>
+
+
 ## 📌 Commit convention
-| Message    |  Description                                             |
-| ---------- | ---------------------------------------------------------|
-| `feat`     | Add a new feature                                        |
-| `fix`	     | Fix a bug                                                |
-| `refactor` | Refactor code without changing functionality             | 
-| `style`    | Format code, fix missing semicolons, or change code style|
-| `remove`   | Delete unused files or folders                           |
-| `rename`   | Rename files or folders                                  |
-| `test`     | Add or refactor test code                                |
-| `docs`     | Update or modify documentation                           |
-| `chore`    |  Update build-related tasks or package manager settings  |
+| Message    | Description                                           |
+|------------|-------------------------------------------------------|
+| `feat`     | Add a new feature                                     |
+| `fix`      | Fix a bug                                             |
+| `refactor` | Refactor code without changing functionality          |
+| `style`    | Format code, fix missing semicolons, or change code style |
+| `remove`   | Delete unused files or folders                        |
+| `rename`   | Rename files or folders                               |
+| `test`     | Add or refactor test code                             |
+| `docs`     | Update or modify documentation                        |
+| `chore`    | Update build-related tasks or package manager settings|
+
+
