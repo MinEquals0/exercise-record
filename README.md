@@ -1,4 +1,5 @@
-# Exercise Record
+
+# 💪 Exercise Record
 <div align="center">
  <br>
  <img src ="https://github.com/MinEquals0/exercise-record/blob/main/image/%EB%B0%B0%EB%84%88.png?raw=true" width="400px">
@@ -6,37 +7,46 @@
 <b>side project</b><br>
 </div>
 
- 
-## Team
-| 민은영 |
-| :----: |
-| <img src="https://github.com/MinEquals0/exercise-record/blob/main/image/%ED%94%84%EB%A1%9C%ED%95%84.png?raw=true" width="100px"> |
-| [`minequals0`](https://github.com/minequals0)      | 
 
-## Stack - Back
+## 🙋‍♀️ About the Developer
+
+<div align="center">
+	<br>
+		<img src="https://github.com/MinEquals0/exercise-record/blob/main/image/%ED%94%84%EB%A1%9C%ED%95%84.png?raw=true" width="200px"><br>
+		<b>Eun-young Min</b><br>
+	<a href="https://github.com/minequals0">@minequals0</a>
+	<br>
+
+✨ I’m currently working on this project as part of my journey to becoming a backend developer.  
+🌱 I’ve been learning Spring Boot and JPA, and have taken on the full development process independently.  
+📖 This project represents my growth and the progress I’m making in backend development.
+
+</div>
+
+
+
+## 📂 Stacks
 ![Java](https://img.shields.io/badge/JAVA-4285F4?style=for-the-badge&logo=java&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-6DB33F?style=for-the-badge&logo=JWT&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white)
-![SpringBoot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=Spring&logoColor=white)
-![SpringSecurity](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![SpringDataJPA](https://camo.githubusercontent.com/4d6c95cabfe6a0d618dcff22c328585f9bfb282e6e9dd185fb2217892fe1d1c4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f537072696e67253230446174612532304a50412d3644423333463f7374796c653d666f722d7468652d6261646765266c6f676f3d6c6971756962617365266c6f676f436f6c6f723d7768697465)  
-![MySQL](https://shields.io/badge/MySQL-4479A1?logo=mysql&style=for-the-badge&logoColor=white)
-![AWS EC2](https://camo.githubusercontent.com/68b2f772975e242a6650f0c57a38782ee26d921ab75a882f6ecf63e149e3f283/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416d617a6f6e2532304543322d4646393930303f7374796c653d666f722d7468652d6261646765266c6f676f3d616d617a6f6e454332266c6f676f436f6c6f723d7768697465)
-![Amazons3](https://img.shields.io/badge/amazons3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-![AWS RDS](https://camo.githubusercontent.com/b9f446cd9087af30e40a1f79a4a99927480ba70ac0cb3ecbbd180a1ca27f0db8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416d617a6f6e2532305244532d3532374646463f7374796c653d666f722d7468652d6261646765266c6f676f3d616d617a6f6e524453266c6f676f436f6c6f723d7768697465)
-![Swagger](https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white)
-![docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![SpringBoot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white)
+![SpringSecurity](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=Spring%20Security&logoColor=white)
+![SpringDataJPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=hibernate&logoColor=white)
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&style=for-the-badge&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![AWS RDS](https://img.shields.io/badge/AWS%20RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white)
+
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 
-## Service Menual
-
-
-## Docs
+## 📃 Docs
 <details>
 <summary>사용자요구사항정의서</summary>
 <div markdown="1">
- <img width="1032" alt="사용자요구사항정의서1" src="https://github.com/codestates-seb/seb45_main_009/assets/130390467/0408739e-96b9-4018-ac4a-92a358aa56af">
- <img width="1030" alt="사용자요구사항정의서2" src="https://github.com/codestates-seb/seb45_main_009/assets/130390467/00de8ce6-ffb2-4cef-bfb3-d1421abc9d7e">
+ <img width="1032" alt="사용자요구사항정의서1" src="">
 </div>
 </details>
 
@@ -50,7 +60,7 @@
 #### [API 명세서](http://13.125.169.12:8080/swagger-ui/index.html#/)
 
 
-## Commit convention
+## 📌 Commit convention
 | Message  | 설명                                            |
 | -------- | ----------------------------------------------- |
 | `feat`	   | 새로운 기능 추가                                |
