@@ -44,14 +44,8 @@
 <br>
 <br>
 
-## 📃 Docs
-<details>
-<summary>사용자요구사항정의서</summary>
-<div markdown="1">
- <img width="1032" alt="사용자요구사항정의서1" src="">
-</div>
-</details>
 
+## 📃 ERD
 <details>
 <summary>ERD</summary>
 <div markdown="1">
@@ -59,19 +53,18 @@
 </div>
 </details>
 
-#### [API 명세서](http://13.125.169.12:8080/swagger-ui/index.html#/)
+#### 📃 [API Documentation](http://13.125.169.12:8080/swagger-ui/index.html#/)
 <br>
 <br>
-
 ## 📌 Commit convention
-| Message  | 설명                                            |
-| -------- | ----------------------------------------------- |
-| `feat`	   | 새로운 기능 추가                                |
-| `fix`	     | 버그 수정                                |
-| `refactor` | 코드 리팩토링                                |
-| `style`	   | 코드 포맷팅, 세미콜론 누락, 코드 스타일 변경 등                                |
-| `remove`	 | 사용하지 않는 파일 또는 폴더 삭제                                |
-| `rename`	 | 파일 또는 폴더명 수정                                |
-| `test`	   | 테스트 코드, 리펙토링 테스트 코드 추가                                |
-| `docs`	   | 문서명 수정                                |
-| `chore`	   | 빌드 업무 수정, 패키지 매니저 수정                                |
+| Message    |  Description                                             |
+| ---------- | ---------------------------------------------------------|
+| `feat`     | Add a new feature                                        |
+| `fix`	     | Fix a bug                                                |
+| `refactor` | Refactor code without changing functionality             | 
+| `style`    | Format code, fix missing semicolons, or change code style|
+| `remove`   | Delete unused files or folders                           |
+| `rename`   | Rename files or folders                                  |
+| `test`     | Add or refactor test code                                |
+| `docs`     | Update or modify documentation                           |
+| `chore`    |  Update build-related tasks or package manager settings  |
