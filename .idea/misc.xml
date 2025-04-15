@@ -4,4 +4,10 @@
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+>>>>>>> 783e2b94040e214b5e089e20535d8d8877f26c83
 </project>

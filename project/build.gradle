@@ -38,6 +38,11 @@ dependencies {
 	testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
 	testImplementation 'org.springframework.security:spring-security-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+<<<<<<< HEAD
+=======
+	runtimeOnly 'com.h2database:h2'
+	runtimeOnly 'com.mysql:mysql-connector-j'
+>>>>>>> 783e2b94040e214b5e089e20535d8d8877f26c83
 }
 
 tasks.named('test') {
