@@ -1,7 +1,7 @@
 # Exercise Record
 <div align="center">
  <br>
- <img src ="" width="400px">
+ <img src ="https://github.com/MinEquals0/exercise-record/blob/main/image/%EB%B0%B0%EB%84%88.png?raw=true" width="400px">
  <br>
 <b>side project</b><br>
 </div>
@@ -10,7 +10,7 @@
 ## Team
 | 민은영 |
 | :----: |
-| <img src="https://github.com/codestates-seb/seb45_main_009/assets/130059353/8e686e76-57b8-41ae-a495-6238e8519478" width="100px" height="100px"> |
+| <img src="https://github.com/MinEquals0/exercise-record/blob/main/image/%ED%94%84%EB%A1%9C%ED%95%84.png?raw=true" width="100px" height="100px"> |
 | [`minequals0`](https://github.com/minequals0)      | 
 
 ## Stack - Back
