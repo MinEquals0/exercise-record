@@ -3,7 +3,7 @@
  <br>
  <img src ="" width="400px">
  <br>
-<b>solo project</b><br>
+<b>side project</b><br>
 </div>
 
  
@@ -11,7 +11,7 @@
 | 민은영 |
 | :----: |
 | <img src="https://github.com/codestates-seb/seb45_main_009/assets/130059353/8e686e76-57b8-41ae-a495-6238e8519478" width="100px" height="100px"> |
-| [`minkawoo`](https://github.com/minkawoo)      | 
+| [`minequals0`](https://github.com/minequals0)      | 
 
 ## Stack - Back
 ![Java](https://img.shields.io/badge/JAVA-4285F4?style=for-the-badge&logo=java&logoColor=white)
