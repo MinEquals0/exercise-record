@@ -12,19 +12,5 @@ spring:
       ddl-auto: update
 
 jwt:
-  secret: your-secret-key-here
+  secret: your-secret-key-here # 수정 필요
 
-  # true 설정 시 JPA 쿼리문 확인 가능
-#  jpa:
-#    show-sql: true
-#    generate-ddl: true # 추가
-#
-#    # DDL 정의시 DB의 고유 기능을 사용 가능
-#    hibernate:
-#      dialect: org.hibernate.dialect.MySQL8Dialect # 추가
-#      ddl-auto: create
-
-#    # JPA의 구현체인 Hibernate가 동작하면서 발생한 SQL의 가독성을 높여줌
-#    properties:
-#      hibernate:
-#        format_sql: true

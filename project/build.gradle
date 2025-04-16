@@ -54,9 +54,3 @@ tasks.named('asciidoctor') {
 	inputs.dir snippetsDir
 	dependsOn test
 }
-
-// 어떤 부분이 deprecated API인지 알려줌
-tasks.withType(JavaCompile) {
-	options.fork = true
-	options.forkOptions.jvmArgs = ['-Xlint:deprecation']
-}

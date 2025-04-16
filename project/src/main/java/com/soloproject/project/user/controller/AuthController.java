@@ -18,7 +18,7 @@ import java.util.Collections;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/auth")
-public class Authcontroller {
+public class AuthController {
     private final AuthenticationManager authenticationManager;
     private final JwtTokenProvider jwtTokenProvider;
 
