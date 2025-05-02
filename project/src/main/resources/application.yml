@@ -9,22 +9,14 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
+    properties: # 콘솔창에서 실행되는 sql을 보기 좋게 하는 설정 추가
+      hibernate:
+        format_sql: true
+        show_sql: true
 
 jwt:
-  secret: your-secret-key-here
+  header: Authorization
+  secret: ${SECRET_KEY}
+  token-validity-in-seconds: 86400 # 토큰 만료시간
 
-  # true 설정 시 JPA 쿼리문 확인 가능
-#  jpa:
-#    show-sql: true
-#    generate-ddl: true # 추가
-#
-#    # DDL 정의시 DB의 고유 기능을 사용 가능
-#    hibernate:
-#      dialect: org.hibernate.dialect.MySQL8Dialect # 추가
-#      ddl-auto: create
-
-#    # JPA의 구현체인 Hibernate가 동작하면서 발생한 SQL의 가독성을 높여줌
-#    properties:
-#      hibernate:
-#        format_sql: true
