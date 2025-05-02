@@ -1,4 +1,4 @@
-package com.soloproject.project.security;
+package com.soloproject.project.security.service;
 
 import com.soloproject.project.user.entity.User;
 import com.soloproject.project.user.repository.UserRepository;

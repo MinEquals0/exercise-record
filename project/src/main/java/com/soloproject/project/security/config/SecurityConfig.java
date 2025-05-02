@@ -1,4 +1,4 @@
-package com.soloproject.project.security;
+package com.soloproject.project.security.config;
 
 
 import com.soloproject.project.security.jwt.JwtAuthenticationFilter;
