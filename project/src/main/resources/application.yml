@@ -20,3 +20,8 @@ jwt:
   secret: ${SECRET_KEY}
   token-validity-in-seconds: 86400 # 토큰 만료시간
 
+# 로그를 디버깅용으로 출력
+logging:
+  level:
+    com.soloproject: DEBUG
+
